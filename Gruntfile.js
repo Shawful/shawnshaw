@@ -71,15 +71,9 @@ module.exports = function (grunt) {
     // less settings
     less: {
       development: {
-        // options: {
-        //  paths: ["less"]
-        // },
         // target name
         files: {
-            // no need for files, the config below should work
-            'css/creative.css':  ['less/*.less'],
-            // dest: 'css/main.css'
-            // "css/main.css": ["less/**/*.less"]
+            'css/creative.css':  ['less/*.less']
         }
       }
     },
