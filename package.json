@@ -14,13 +14,18 @@
   "author": "Shawn Shaw",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "autoprefixer-core": "^6.0.1",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
+    "grunt-connect": "^0.2.0",
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.2.0",
     "grunt-contrib-qunit": "^1.1.0",
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-serve": "^0.1.6"
+    "grunt-serve": "^0.1.6",
+    "jshint-stylish": "^2.1.0"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "shawnshaw",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/Shawful/shawnshaw",
+  "authors": [
+    "Shawn Shaw <shawn.e.shaw@gmail.com>"
+  ],
+  "description": "My public portfolio page",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
