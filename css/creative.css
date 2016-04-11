@@ -670,16 +670,11 @@ a.left.carousel-control {
   background-image: none;
 }
 div.item img {
-  float: left;
   max-width: 200px;
   max-height: 200px;
-  padding-left: 100px;
 }
-div.item span {
-  width: 100px;
-  height: 200px;
-  padding-left: 0px;
-  padding-right: 100px;
+.dark_emphasis {
+  color: black;
 }
 
 
