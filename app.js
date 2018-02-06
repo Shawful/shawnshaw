@@ -8,7 +8,7 @@ var app = express();
 
 app.use(cors());
 
-server.listen(80);   
+server.listen(8080);   
 
 // app.use(bodyParser());
 // app.use(express.methodOverride());
