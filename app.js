@@ -15,7 +15,9 @@ server.listen(80);
 // app.use('/', express.static());
 app.use(express.static(path.join(__dirname, '/')));
 
-console.log('someone hit the server');
+app.listen('/', function() {
+	console.log('someone hit the server');
+});
 // // app.use(app.router);
 
 
