@@ -12,7 +12,9 @@ server.listen(80);
 
 // // app.use(bodyParser());
 // // app.use(express.methodOverride());
-app.use(express.static('/'));
+app.use('/', express.static(__dirname + '/'));
+
+console.log('someone hit the server');
 // // app.use(app.router);
 
 
