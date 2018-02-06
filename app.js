@@ -20,10 +20,14 @@ app.use('/', express.static(__dirname));
 
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
+  console.log('GET request made');
 });
 
 console.log('__dirname: ');
 console.log(__dirname);
+
+console.log('landing page: ');
+console.log(__dirname + '/index.html');
 
 // app.listen('/', function() {
 // 	console.log('someone hit the server');
