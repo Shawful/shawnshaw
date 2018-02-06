@@ -1,26 +1,31 @@
-// var express = require('express');
+var express = require('express');
 // var cors = require('cors');
 // var server = require('http').createServer(app);
 // var bodyParser = require('body-parser');
 // var path = require('path');
 
-// var app = express();
+var app = express();
 
 // app.use(cors());
 
-// server.listen(80);   
+server.listen(80);   
 
 // // app.use(bodyParser());
 // // app.use(express.methodOverride());
-// app.use(express.static('shawnshaw'));
+app.use(express.static('/'));
 // // app.use(app.router);
 
 
-var express = require('express');
-var app = express();
 
-app.get('/', function(req, res){
-  res.send('hello world');
-});
 
-app.listen(80);
+//  Sample code
+///////////////////////
+
+// var express = require('express');
+// var app = express();
+
+// app.get('/', function(req, res){
+//   res.send('hello world');
+// });
+
+// app.listen(80);
