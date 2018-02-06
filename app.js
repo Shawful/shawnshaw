@@ -12,8 +12,8 @@ server.listen(80);
 
 // // app.use(bodyParser());
 // // app.use(express.methodOverride());
-app.use('/', express.static());
-// app.use('/', express.static(__dirname));
+// app.use('/', express.static());
+app.use('/', express.static(__dirname));
 // app.use(express.static(path.join(__dirname + '/shawnshaw')));
 // app.use(express.static(path.join(__dirname + '')));
 
