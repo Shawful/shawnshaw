@@ -1,6 +1,6 @@
 var express = require('express');
 // var cors = require('cors');
-// var server = require('http').createServer(app);
+var server = require('http').createServer(app);
 // var bodyParser = require('body-parser');
 // var path = require('path');
 
