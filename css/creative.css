@@ -676,5 +676,11 @@ div.item img {
 .dark_emphasis {
   color: black;
 }
+.quote {
+  height: 200px;
+}
+.person {
+  height: 45px;
+}
 
 
