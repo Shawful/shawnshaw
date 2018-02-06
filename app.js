@@ -12,8 +12,8 @@ server.listen(80);
 
 // // app.use(bodyParser());
 // // app.use(express.methodOverride());
-// app.use('/', express.static());
-app.use('/', express.static(__dirname));
+app.use('/', express.static());
+// app.use('/', express.static(__dirname));
 // app.use(express.static(path.join(__dirname + '/shawnshaw')));
 // app.use(express.static(path.join(__dirname + '')));
 
@@ -28,6 +28,10 @@ console.log(__dirname);
 
 console.log('landing page: ');
 console.log(__dirname + '/index.html');
+
+app.listen(80, function() {
+    console.log('http://34.244.188.22:80/ Get rolling successfully');
+});
 
 // app.listen('/', function() {
 // 	console.log('someone hit the server');
