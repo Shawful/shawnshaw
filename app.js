@@ -10,6 +10,6 @@ app.use(cors());
 server.listen(80);   
 
 // app.use(bodyParser());
-app.use(express.methodOverride());
+// app.use(express.methodOverride());
 app.use(express.static(path.join(__dirname + '~/shawnshaw')));
 app.use(app.router);
