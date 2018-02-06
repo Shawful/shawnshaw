@@ -8,9 +8,9 @@ var app = express();
 
 app.use(cors());
 
-server.listen(8080);   
+server.listen(80);   
 
 // app.use(bodyParser());
 // app.use(express.methodOverride());
-app.use(express.static('shawnshaw'));
+// app.use(express.static('shawnshaw'));
 // app.use(app.router);
