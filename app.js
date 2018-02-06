@@ -22,6 +22,9 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
+console.log('__dirname: ');
+console.log(__dirname);
+
 // app.listen('/', function() {
 // 	console.log('someone hit the server');
 // });
