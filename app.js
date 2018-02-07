@@ -29,9 +29,13 @@ console.log(__dirname);
 console.log('landing page: ');
 console.log(__dirname + '/index.html');
 
-app.listen(80, function() {
-    console.log('http://34.244.188.22:80/ Get rolling successfully');
-});
+// app.listen(80, function() {
+//     console.log('http://34.244.188.22:80/ Get rolling successfully');
+// });
+
+server.on('listening',function(){
+    console.log('ok, server is running');
+})
 
 // app.listen('/', function() {
 // 	console.log('someone hit the server');
