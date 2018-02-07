@@ -1,8 +1,9 @@
 var express = require('express');
 // var cors = require('cors');
-var server = require('http').createServer(app);
 // var bodyParser = require('body-parser');
-var path = require('path');
+
+// var server = require('http').createServer(app);
+// var path = require('path');
 
 var app = express();
 
@@ -13,13 +14,13 @@ server.listen(80);
 // // app.use(bodyParser());
 // // app.use(express.methodOverride());
 // app.use('/', express.static());
-app.use('/', express.static(__dirname));
+// app.use('/', express.static(__dirname));
 // app.use(express.static(path.join(__dirname + '/shawnshaw')));
 // app.use(express.static(path.join(__dirname + '')));
 
-server.on('listening',function(){
-    console.log('ok, server is running');
-});
+// server.on('listening',function(){
+//     console.log('ok, server is running');
+// });
 
 app.get('/', function (req, res) {
   console.log('GET request made');
