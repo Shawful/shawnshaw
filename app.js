@@ -25,8 +25,8 @@ app.listen(80);
 
 app.get('/', function (req, res) {
   console.log('GET request made');
-  res.send('hello world');
-  // res.sendFile(__dirname + '/index.html');
+  // res.send('hello world');
+  res.sendFile(__dirname + '/index.html');
 });
 
 console.log('__dirname: ');
