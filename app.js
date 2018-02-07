@@ -23,7 +23,8 @@ server.on('listening',function(){
 
 app.get('/', function (req, res) {
   console.log('GET request made');
-  res.sendFile(__dirname + '/index.html');
+  res.send('hello world');
+  // res.sendFile(__dirname + '/index.html');
 });
 
 console.log('__dirname: ');
