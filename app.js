@@ -17,10 +17,13 @@ app.use('/', express.static(__dirname));
 // app.use(express.static(path.join(__dirname + '/shawnshaw')));
 // app.use(express.static(path.join(__dirname + '')));
 
+server.on('listening',function(){
+    console.log('ok, server is running');
+});
 
 app.get('/', function (req, res) {
-  res.sendFile(__dirname + '/index.html');
   console.log('GET request made');
+  res.sendFile(__dirname + '/index.html');
 });
 
 console.log('__dirname: ');
@@ -33,9 +36,6 @@ console.log(__dirname + '/index.html');
 //     console.log('http://34.244.188.22:80/ Get rolling successfully');
 // });
 
-server.on('listening',function(){
-    console.log('ok, server is running');
-})
 
 // app.listen('/', function() {
 // 	console.log('someone hit the server');
